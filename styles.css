@@ -1,0 +1,51 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	font-size: 100%;
+	background: #F8F8FF;
+}
+.header {
+	width: 30%;
+	height: 50%;
+	color: #03A9F4;
+	background: white;
+	text-align: center;
+	margin: 20px auto 1px;
+	padding: 10px;
+	border: 3px solid black;
+	border-radius: 10px 10px 10px 10px;
+	position:relative;
+}
+.field_select {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	 text-align:center;
+	 color:blue;
+}
+.select {
+	 text-align:center;
+	 margin-top:10px;
+}
+#s {
+	width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: lightblue;
+    margin-top:20px;
+}
+#t {
+	width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: lightblue;
+    margin-top:20px;
+}
+#a {
+	width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: lightblue;
+    margin-top:20px;
+}
