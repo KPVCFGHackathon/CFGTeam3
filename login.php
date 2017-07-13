@@ -1,4 +1,4 @@
-<?php include('userdata.php'); ?>
+<?php include('server.php'); ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -23,7 +23,7 @@ if (isset($_POST['login'])) {
 	}
 	if(count($errors) == 0) {
 		$password = md5($passwd);
-		$query = "SELECT * FROM userdetails WHERE uname='$username' AND pwd='$password'";
+		$query = "SELECT * FROM student WHERE uname='$username' AND pwd='$password'";
 		$result = mysqli_query($db,$query);
 		if(mysqli_num_rows($result) == 1) {
 			$_SESSION['username'] = $username;
